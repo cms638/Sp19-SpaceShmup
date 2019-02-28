@@ -9,6 +9,13 @@ public class Enemy : MonoBehaviour {
     public float health = 10;
     public float score = 100;
 
+    private BoundsCheck bndCheck;
+
+    void Awake()
+    {
+        bndCheck = GetComponent<BoundsCheck>();
+    } 
+
     public Vector3 pos {
         get {
             return (this.transform.position);
@@ -25,6 +32,9 @@ public class Enemy : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         Move();
+        if (bndCheck != null && bndCheck.offDown) {
+                Destroy(gameObject);
+            }
 	}
 
     public virtual void Move() {
