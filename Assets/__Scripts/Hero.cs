@@ -15,7 +15,7 @@ public class Hero : MonoBehaviour {
 
     [Header("Set Dynamically")]
     [SerializeField]
-    public float _shieldLevel = 1;
+    public float _shieldLevel = 3;
 
     private GameObject lastTriggerGo = null;
 
@@ -85,7 +85,7 @@ public class Hero : MonoBehaviour {
             return (_shieldLevel);
         }
         set {
-            _shieldLevel = Mathf.Min(value, 4);
+            _shieldLevel = Mathf.Min(value, 6);
             if (value < 0) {
                 Destroy(this.gameObject);
                 Main.S.DelayedRestart(gameRestartDelay);

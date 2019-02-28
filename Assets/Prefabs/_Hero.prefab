@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 114471110606078200}
   - component: {fileID: 54727013915012794}
   - component: {fileID: 114993079602379944}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: _Hero
   m_TagString: Hero
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 33351705131262356}
   - component: {fileID: 23910631295891892}
   - component: {fileID: 65136143027976280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 23502339861937570}
   - component: {fileID: 135064187071068580}
   - component: {fileID: 114667993122831868}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4887587151459578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cockpit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 33442305892570302}
   - component: {fileID: 23404339591738806}
   - component: {fileID: 65191243613448598}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -347,7 +347,10 @@ MonoBehaviour:
   speed: 30
   rollMult: -45
   pitchMult: 30
-  shieldLevel: 3
+  gameRestartDelay: 2
+  projectilePrefab: {fileID: 0}
+  projectileSpeed: 40
+  _shieldLevel: 1
 --- !u!114 &114667993122831868
 MonoBehaviour:
   m_ObjectHideFlags: 1
