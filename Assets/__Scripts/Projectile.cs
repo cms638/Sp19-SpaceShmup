@@ -26,6 +26,8 @@ public class Projectile : MonoBehaviour {
     void Awake()
     {
         bndCheck = GetComponent<BoundsCheck>();
+        rend = GetComponent<Renderer>();
+        rigid = GetComponent<Rigidbody>();
     }
 
     // Use this for initialization
