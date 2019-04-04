@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33937788461151772}
   - component: {fileID: 23494821591260386}
   - component: {fileID: 135834672721325776}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Wing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 33495117628718904}
   - component: {fileID: 23286036843879356}
   - component: {fileID: 135743546074632322}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CockpitL
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 33628966975454960}
   - component: {fileID: 23578761711596392}
   - component: {fileID: 135344197081423296}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: CockpitR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,7 +76,7 @@ GameObject:
   - component: {fileID: 54391369274986394}
   - component: {fileID: 114775228707312992}
   - component: {fileID: 114071996995241490}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Enemy_3
   m_TagString: Enemy
   m_Icon: {fileID: 0}
